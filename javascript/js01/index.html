@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<script>
+function displayDate(){
+    document.getElementById("demo").innerHTML=Date();
+}
+
+function echoDate01() {
+    alert('hello world!');
+    // 数据类型（Number, 字符串, 布尔值, 数组, 对象）
+    var a = 1.12;
+    var bStr = "test";
+    var bB = true;
+    var arrT = ['ab', 'bc', 'cd'];
+    console.log('a' + a + 'bStr:' + bStr);
+    for (var x of arrT) {
+        console.log(x);
+    }
+    // 常量
+    // 'use strict'; 模式
+}
+</script>
+</head>
+<body>
+
+<h1>我的第一个 JavaScript 程序</h1>
+<p id="demo">这是一个段落</p>
+
+<button type="button" onclick="displayDate()">显示日期</button>
+
+<button type="submit" onclick="echoDate01()">点击</button>
+</body>
+</html>
